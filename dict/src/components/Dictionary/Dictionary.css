@@ -1,0 +1,18 @@
+.dictionary{
+    padding: 10px;
+    margin: 10px;
+    background: gray !important;
+}
+.leftcontent{
+    padding: 30px;
+    margin: 30px;
+    background: lightblue !important;
+}
+
+.meaning{
+    padding: 10px;
+    margin-top: 20px;
+}
+.pronounciation{
+    margin: 15px;
+}
