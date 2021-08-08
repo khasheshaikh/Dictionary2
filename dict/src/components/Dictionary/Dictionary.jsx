@@ -8,6 +8,7 @@ import './Dictionary.css'
 export const Dictionary=()=>{
     const [resData, setResData] = useState([]);
     const [wordSearch, setWordSearch] = useState("")
+    
     const handleSearch=()=>{
         axios 
         .get(`https://api.dictionaryapi.dev/api/v2/entries/en_US/${wordSearch}`)

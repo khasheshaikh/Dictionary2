@@ -1,12 +1,12 @@
 .dictionary{
     padding: 10px;
     margin: 10px;
-    background: gray !important;
+    background: #393E46 !important;
 }
 .leftcontent{
     padding: 30px;
     margin: 30px;
-    background: lightblue !important;
+    background: #00ADB5 !important;
 }
 
 .meaning{
@@ -15,4 +15,15 @@
 }
 .pronounciation{
     margin: 15px;
+}
+.btn-primary{
+    background-color: #222831 !important;
+    border-color: none;
+    color: white;
+}
+.card-2{
+  margin-top: 20px;  
+}
+h2{
+    margin-bottom: 0px;
 }

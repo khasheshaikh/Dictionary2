@@ -17,14 +17,11 @@ export const LeftContent=({handleSearch,resData, setWordSearch})=>{
             <Col md={2}>
                 <Button onClick={handleSearch}>search</Button>
             </Col>
-            <Col md={2}>
-                <Button>Play</Button>
-              </Col>
+            
         </Row>
 
-        {/* <Pronounciation /> */}
-        {resData.map((item)=>item.meanings.length>0 && <MeaningList item={item}/>
-        )}
+        {resData.map((item)=>item &&<Pronounciation item={item}/>)}
+        {resData.map((item)=>item.meanings.length>0 && <MeaningList item={item}/>)}
         </Card>
     )
 }
