@@ -17,7 +17,7 @@ export const Pronounciation =({item})=>{
       <h3>{item.phonetic}</h3>
       </Col>
       <Col>
-      {item.phonetics.map((a)=>(<Sound a={a}/>))}
+      {item.phonetics.length && <Sound a={item.phonetics[0]}/>}
       </Col>
     </Row>
   </Card>

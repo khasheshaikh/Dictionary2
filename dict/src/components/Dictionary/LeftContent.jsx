@@ -20,7 +20,7 @@ export const LeftContent=({handleSearch,resData, setWordSearch})=>{
             
         </Row>
 
-        {resData.map((item)=>item &&<Pronounciation item={item}/>)}
+        {resData.length>0 && <Pronounciation item={resData[0]}/>}
         {resData.map((item)=>item.meanings.length>0 && <MeaningList item={item}/>)}
         </Card>
     )
